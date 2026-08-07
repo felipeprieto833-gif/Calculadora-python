@@ -51,3 +51,6 @@ match opcion :
             a = float(input("digite el numero en radianes:"))
             c=math.cos(a)
             print("el coseno es es:",c,)
+
+
+#me lo pela
