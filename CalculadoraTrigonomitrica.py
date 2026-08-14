@@ -14,7 +14,7 @@ class CalculadoraTrigonometrica:
             raise ValueError("La tangente no está definida para 90 y 270 grados.")
         self.result=math.tan(self.angle)
         return self.result
-def trigomain():
+def trigoMain():
     micalct=CalculadoraTrigonometrica(0,0)
     while True:
         print("---Operaciones Trigonométricas---")
@@ -32,4 +32,4 @@ def trigomain():
             micalct.tangente()
             print("tan(",micalct.angle,")= ", micalct.result)
 if __name__ == "__main__":
-    trigomain()
+    trigoMain()

@@ -18,7 +18,7 @@ class Calculadora_Basica:
             raise ValueError("No se puede dividir entre cero.")
         self.result=self.num1/self.num2
         return self.result
-def main():
+def basicMain():
     micalcb=Calculadora_Basica(0,0,0)
     Ans=0
     while True:
@@ -81,4 +81,4 @@ def main():
                 Ans=micalcb.result
 
 if __name__ == "__main__":
-    main()
+    basicMain()

@@ -49,7 +49,7 @@ class CalculadoraEspeciales:
         self.result = self.abs(self.num1*self.num2)//self.mcd()
         return self.result
 
-def espmain():
+def especialMain():
     micalc=CalculadoraEspeciales(0,0,0)
     while True:
         print("---Funciones especiales---")
@@ -77,4 +77,4 @@ def espmain():
             micalc.num2 = int(input("Ingrese el segundo numero: "))
             print("El MCD es ", micalc.mcd())
 if __name__ == "__main__":
-    espmain()
+    especialMain()

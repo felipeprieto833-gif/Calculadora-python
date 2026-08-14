@@ -3,16 +3,16 @@ print(" 1. Operaciones Basicas \n 2. Razones Tringonometricas \n 3. Funciones Es
 o=int(input("Seleccione una opcion: "))
 
 if o==1:
-    from CalculadoraBasica import main
+    from CalculadoraBasica import basicMain
     if __name__ == "__main__":
-        main()
+        basicMain()
         
 elif o==2:
-    from CalculadoraTrigonomitrica import trigomain
+    from CalculadoraTrigonomitrica import trigoMain
     if __name__ == "__main__":
-        trigomain()
+        trigoMain()
 
 elif o==3:
-    from CalculadoraEspecial import espmain
+    from CalculadoraEspecial import especialMain
     if __name__ == "__main__":
-        espmain()
+        especialMain()
