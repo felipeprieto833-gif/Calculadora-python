@@ -10,6 +10,8 @@ class CalculadoraTrigonometrica:
         self.result=math.cos(self.angle)
         return self.result
     def tangente(self):
+        if self.angle==90 or self.angle==270:
+            raise ValueError("La tangente no está definida para 90 y 270 grados.")
         self.result=math.tan(self.angle)
         return self.result
 def trigomain():
