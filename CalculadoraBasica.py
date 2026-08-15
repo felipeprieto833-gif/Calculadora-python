@@ -79,6 +79,4 @@ def basicMain():
                 micalcb.num2=int(input("ingrese el numero 2: "))
                 print("La division es ", micalcb.division())
                 Ans=micalcb.result
-
-if __name__ == "__main__":
-    basicMain()
+basicMain()

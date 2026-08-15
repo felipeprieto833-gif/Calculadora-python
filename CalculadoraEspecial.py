@@ -76,5 +76,6 @@ def especialMain():
             micalc.num1 = int(input("Ingrese el primer numero: "))
             micalc.num2 = int(input("Ingrese el segundo numero: "))
             print("El MCD es ", micalc.mcd())
+
 if __name__ == "__main__":
     especialMain()
