@@ -42,5 +42,3 @@ def trigoMain():
         elif opcion==3:
             micalct.angle=float(input ("Ingrese el valor del angulo: "))
             micalct.tangente()
-
-trigoMain()

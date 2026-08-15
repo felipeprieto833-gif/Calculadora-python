@@ -13,7 +13,7 @@ class CalculadoraEspeciales:
 
     def potencia(self):
         self.result = 1
-        for i in range(1, self.num2):
+        for i in range(self.num2):
             self.result *= self.num1
         return self.result
 
@@ -76,6 +76,3 @@ def especialMain():
             micalc.num1 = int(input("Ingrese el primer numero: "))
             micalc.num2 = int(input("Ingrese el segundo numero: "))
             print("El MCD es ", micalc.mcd())
-
-if __name__ == "__main__":
-    especialMain()
